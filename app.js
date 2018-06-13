@@ -5,8 +5,8 @@ const create_payment_json = require('./data/data.json');
 
 paypal.configure({
     'mode': 'sandbox', // sandbox or live
-    'client_id': 'AU9PqWmfIRnwaK_CvahitJBChmcOMAKrM7XAsWxnzLP3g7tHdqtJ5ZDSXr0MBhwqFwO7aVniGGilZD9s',
-    'client_secret': 'EHJevcMnv9oDaxTEP_gjkzLie3U99AM-SCZBeoeFvlju_a0ThltFRBm_zpWLSfUW1hl1gxiCRsjyKVSw'
+    'client_id': '<YOUR_CLIENT_ID>',
+    'client_secret': '<YOUR_CLIENT_SECRET>'
 });
 
 const app = express();
