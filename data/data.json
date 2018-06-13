@@ -1,0 +1,26 @@
+{
+    "intent": "sale",
+    "payer": {
+        "payment_method": "paypal"
+    },
+    "redirect_urls": {
+        "return_url": "http://localhost:3000/success",
+        "cancel_url": "http://localhost:3000/cancle"
+    },
+    "transactions": [{
+        "item_list": {
+            "items": [{
+                "name": "Red Sox Hat",
+                "sku": "RSH-001",
+                "price": "28.48",
+                "currency": "USD",
+                "quantity": 1
+            }]
+        },
+        "amount": {
+            "currency": "USD",
+            "total": "28.48"
+        },
+        "description": "The hat for the best team ever"
+    }]
+}
